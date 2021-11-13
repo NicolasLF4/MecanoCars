@@ -8,8 +8,8 @@
     <title>MecanoCars</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="icon" href="img/logo.png" >
-    <link rel="stylesheet" href="css/SliderPersonaje/FontAwesome.css">
-    <link rel="stylesheet" href="css/SliderPersonaje/FontGoogle.css">
+    <link rel="stylesheet" href="css/SliderPersonaje/CSS/FontAwesome.css">
+    <link rel="stylesheet" href="css/SliderPersonaje/CSS/FontGoogle.css">
     <link rel="stylesheet" href="css/SliderPersonaje/CSS/style.css">
     <link rel="stylesheet" href="css/SliderPersonaje/CSS/estiloInfo.css">
 </head>
@@ -18,6 +18,8 @@
 <?php include 'includes/nav.html'?>
 
     <!-- Main -->
+    
+    <div class="separador"></div>
     <div class="container">
         <div class="contenedorTexto">
             <div class="subtitle">
@@ -33,15 +35,15 @@
         <div class="container-tutorial">
             <div class="contenedor-tarjeta">
                 <div class="tarjeta">
-                    <img src="/img/Decoracion/teclea2.jpg" alt="">
+                    <img src="img/Decoracion/teclea2.jpg" alt="">
                     <h4>Teclea</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea illum quas quae, saepe accusantium natus deleniti unde ducimus adipisci ab maxime cumque molestias! Aliquam ipsa impedit voluptatem culpa consectetur at!</p>
                 </div>
-                <div class="tarjeta"><img src="" alt="">
+                <div class="tarjeta"><img src="img/Decoracion/carretera.jpg" alt="">
                     <h4>Acierta</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non cupiditate eius. Dolor, quasi ex. Neque eos alias, odit consequatur autem repellat optio. Adipisci ab ipsum labore amet explicabo harum?</p>
                 </div>
-                <div class="tarjeta"><img src="/img/Decoracion/acelera.jpg" alt="">
+                <div class="tarjeta"><img src="img/Decoracion/acelera.jpg" alt="">
                     <h4>Acelera</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi assumenda quas fugiat dolores natus ea qui voluptatibus pariatur placeat nisi laborum est, atque veniam modi iure ab ipsam repudiandae cumque!</p>
                 </div>
@@ -69,12 +71,12 @@
                     <div class="cards__wrapper">
                         <div class="card current--card">
                             <div class="card__image">
-                                <img src="/img/personajes/Astrid.png" alt="" />
+                                <img src="img/personajes/Astrid.png" alt="" />
                             </div>
                         </div>
                         <div class="card next--card">
                             <div class="card__image">
-                                <img src="/img/personajes/pj" alt="" />
+                                <img src="img/personajes/pj" alt="" />
                             </div>
                         </div>
                         <div class="card previous--card">
@@ -112,22 +114,22 @@
                 </div>
                 <div class="app__bg">
                     <div class="app__bg__image current--image">
-                        <img src="/img/personajes/fonopj.jpg" alt="" />
+                        <img src="img/personajes/fonopj.jpg" alt="" />
                     </div>
                     <div class="app__bg__image next--image">
                         <img src="2.jpeg" alt="" />
                     </div>
                     <div class="app__bg__image previous--image">
-                        <img src="/img/personajes/fonopj.jpg" alt="" />
+                        <img src="img/personajes/fonopj.jpg" alt="" />
                     </div>
                 </div>
             </div>
-            <div class="loading__wrapper">
+            <!--div class="loading__wrapper">
                 <div class="loader--text">Cargando...</div>
                 <div class="loader">
                     <span></span>
                 </div>
-            </div>
+            </div-->
             <!-- SVG start -->
             <svg class="icons" style="display: none;">
                 <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
@@ -167,12 +169,6 @@
         </div>
 
         <div class="separador"></div>
-
-        <section class="ventajas">
-            <div class="">
-
-            </div>
-        </section>
 
         <!-- Main end -->
 
