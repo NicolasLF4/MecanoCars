@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MecanoCars</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="icon" href="img/logo.png" >
     <link rel="stylesheet" href="css/SliderPersonaje/FontAwesome.css">
     <link rel="stylesheet" href="css/SliderPersonaje/FontGoogle.css">
     <link rel="stylesheet" href="css/SliderPersonaje/CSS/style.css">
@@ -14,45 +15,7 @@
 </head>
 
 <body>
-
-    <!-- Logo -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand">
-                <img src="img/logo.png" alt="" width="40" height="34"> MecanoCars </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-            <!-- Menu de Navegacion -->
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Requisitos.html">Requisitos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Informacion.html">Informacion del Juego</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mobile.html">MC Mobile</a>
-                    </li>
-                </ul>
-
-                <!-- Boton Registro -->
-
-                <form>
-                    <button type="button" class="btn btn-warning">Jugar Ahora</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
-    <div class="separador"></div>
+<?php include 'includes/nav.html'?>
 
     <!-- Main -->
     <div class="container">
@@ -221,6 +184,9 @@
         <script src="/css/SliderPersonaje/JS/script.js"></script>
 
     </div>
+    
+    <?php include 'includes/footer.html'?>
+
 </body>
 
 </html>
