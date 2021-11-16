@@ -23,7 +23,7 @@
             <div class="col-lg-12 col-sm-3">
                 <div class="contenedorbtn col-sm-12">
                     <div class="marcobtn">
-                        <button type="button" onclick >
+                        <button type="button" onclick="window.open('MecanoCars 2021 0.2.2 x64.rar')">
                             <span id="span4"></span> Descargar
                         </a>
                     </div>
