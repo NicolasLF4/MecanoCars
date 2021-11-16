@@ -23,7 +23,7 @@
             <div class="col-lg-12 col-sm-3">
                 <div class="contenedorbtn col-sm-12">
                     <div class="marcobtn">
-                        <a href="register.php">
+                        <a href="login.php">
                             <span id="span1"></span>
                             <span id="span2"></span>
                             <span id="span3"></span>
@@ -46,20 +46,20 @@
                     </div>
                     <div class="contenedorIMG">
                         <div class="caja">
-                            <img src="img/img-hover/chevy.jpg">
-                            <span>auto 1</span>
+                            <img src="img/img-hover/bettle/BRojo.jpeg">
+                            <span>Bettle</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/r12.jpg">
-                            <span>auto 2</span>
+                            <img src="img/img-hover/f100/FCeleste.jpeg">
+                            <span>f100</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/f100.jpg">
-                            <span>auto 3</span>
+                            <img src="img/img-hover/r12/RAzul.jpeg">
+                            <span>Renault12</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/playa2.jpg">
-                            <span>auto 4</span>
+                            <img src="img/img-hover/Eliminado.jpg">
+                            <span>Auto eliminado</span>
                         </div>
                     </div>
                 </div>
@@ -88,9 +88,6 @@
     </div>
 
     <?php include 'includes/footer.html'?>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js " integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js " integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/ " crossorigin="anonymous "></script>
 
 </body>
 

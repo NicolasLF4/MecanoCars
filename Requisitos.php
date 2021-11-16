@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="icon" href="img/logo.png" >
     <link rel="stylesheet" href="css/SliderPersonaje/CSS/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
 
     <?php include 'includes/nav.html' ?>
-    <?php// include 'includes/footer.html'?>
+    <?php include 'includes/footer.html'?>
     
 </body>
 

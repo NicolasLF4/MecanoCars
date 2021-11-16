@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/SliderPersonaje/CSS/FontGoogle.css">
     <link rel="stylesheet" href="css/SliderPersonaje/CSS/style.css">
     <link rel="stylesheet" href="css/SliderPersonaje/CSS/estiloInfo.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
     
     <div class="separador"></div>
     <div class="container">
-        <div class="contenedorTexto">
+        <div class="conteneiner">
             <div class="subtitle">
                 <h2>¿¡QUE ES Y COMO FUNCIONA MECANOCARS!?</h2>
                 <div class="separador"></div>
@@ -50,7 +51,6 @@
             </div>
         </div>
         <div class="separador"></div>
-        <div class="contenedorTexto"></div>
         <div class="separador"></div>
 
         <!-- Slider pj -->
@@ -76,12 +76,12 @@
                         </div>
                         <div class="card next--card">
                             <div class="card__image">
-                                <img src="img/personajes/pj" alt="" />
+                                <img src="img/personajes/MarioF.jpeg" alt="" />
                             </div>
                         </div>
                         <div class="card previous--card">
                             <div class="card__image">
-                                <img src="" alt="" />
+                                <img src="img/personajes/Angel.jpeg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -97,18 +97,18 @@
                     <div class="info__wrapper">
                         <div class="info current--info">
                             <h1 class="text name">Astrid</h1>
-                            <h4 class="text location">BEATLE</h4>
-                            <p class="text description">Frase copada</p>
+                            <h4 class="text location"></h4>
+                            <p class="text description">Jóven imprudente de mucha plata</p>
                         </div>
                         <div class="info next--info">
                             <h1 class="text name">Mario</h1>
-                            <h4 class="text location">Renault 12</h4>
-                            <p class="text description">Frase copada </p>
+                            <h4 class="text location"></h4>
+                            <p class="text description">Remisero endeudado</p>
                         </div>
                         <div class="info previous--info">
-                            <h1 class="text name">Bobbi</h1>
-                            <h4 class="text location">F-100</h4>
-                            <p class="text description">Frase copada</p>
+                            <h1 class="text name">Ángel</h1>
+                            <h4 class="text location"></h4>
+                            <p class="text description">Personaje Principal</p>
                         </div>
                     </div>
                 </div>
@@ -150,13 +150,12 @@
 
         <div class="separador"></div>
 
-        <div class="contenedorTexto">
             <!-- marco info -->
             <div class="container">
                 <div class="col">
                     <div class="DESCRIP-ALL">
                         <div class="Descrip-img">
-                            <img src="/img/Decoracion/BannerBruce.png" alt="">
+                            <img src="img/Decoracion/BannerBruce.png" alt="">
                         </div>
                         <div class="Descrip">
                             <span class="small">Acepta el desafio</span>
@@ -173,11 +172,7 @@
         <!-- Main end -->
 
         <!-- js -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-        <script src="/css/SliderPersonaje/JS/gsap.min.js"></script>
-        <script src="/css/SliderPersonaje/JS/Slider.js"></script>
-        <script src="/css/SliderPersonaje/JS/script.js"></script>
+
 
     </div>
     

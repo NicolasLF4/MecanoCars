@@ -9,75 +9,63 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="icon" href="img/logo.png" >
     <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
 
-    <!-- NavBar -->
-
-    <!-- Logo -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.php">
-                <img src="img/logo.png" alt="" width="34" height="34">MecanoCars</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-            <!-- Menu de Navegacion -->
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Requisitos.php">Requisitos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Informacion.php">Informacion del Juego</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mobile.php">MC Mobile</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- NavBar Fin -->
+<?php include 'includes/nav.html'?>
 
 
-    <!-- Header Welcome -->
-
-    <div class="header-component">
-        <a class="logo" href=""><img src="" alt="">
-        </a>
+    <!-- Login -->
+    <div class="ContLogin">
+        <form class="caja" action="" method="post">
+            <h2>Registrarse</h2>
+            <input type="text" name="nombre" placeholder="Nombre de Usuario" require>
+            <input type="password" name="cont1" placeholder="Contraseña" require>
+            <input type="password" name="cont2" placeholder="Confirmar Contraseña" require>
+            <input type="email" name="email" placeholder="E-mail" require>
+            <input type="submit" name="" value="registrarse">
+        </form>
     </div>
 
-    <!-- Header Welcome Fin -->
-
-    <!-- Registro -->
-
-    <div class="welcome-container">
-
-        <div class="welcome">
-            <H1>AQUI COMIENZA LA AVENTURA</H1>
-        </div>
-        <div class="ContLogin">
-            <form class="caja" action="" method="post">
-                <h2>Registrate</h2>
-                <input type="text" name="" placeholder="Usuario">
-                <input type="password" name="" placeholder="Contraseña">
-                <input type="submit" name="" value="Registarme">
-            </form>
-        </div>
-    </div>
-    <!-- Registro Fin -->
-
-
-    <?php include 'includes/footer.html'?>
+    <!-- Login Fin -->
     
+    <?php 
+    /*
+    include 'conexion.php';
+
+    if (isset($_POST['ida'])) {
+
+        //Recoger los valores del formulario de registro
+        $nombre= $_POST['nombre'];
+        $cont1= $_POST['cont1'];
+        $cont2= $_POST['cont2'];
+        $email= $_POST['email'];
+        if ($cont1 == $cont2)
+        {
+            $contraseña = $cont2
+            echo ("todo piola con vos");
+        } else [
+
+            echo ("todo mal con vos, las contraseñas no coinciden");
+        ]
+        //$contrasena_T_codificada=password_hash($contrasena_T, PASSWORD_DEFAULT);
+        $consulta="INSERT INTO `logueo` (`nombre_usuario`, `contraseña`, `email`) VALUES ('$nombre', '$contraseña', '$email';";
+        $resultado= mysqli_query($conexion, $consulta);
+
+        header("Location: index.php");
+        die();
+    }
+    
+
+
+    
+    
+    
+    */
+    include 'includes/footer.html'?>
+
 </body>
 
 </html>
