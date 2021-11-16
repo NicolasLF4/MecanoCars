@@ -15,55 +15,48 @@
 <body>
 
 <?php include 'includes/nav.html'?>
-
+<?php
+if(isset($_REQUEST["distinto"])){
+	echo '<script type="text/javascript">alert("las contraseñas no coinciden");</script>';
+}
+?>
 
     <!-- Login -->
     <div class="ContLogin">
         <form class="caja" action="" method="post">
             <h2>Registrarse</h2>
-            <input type="text" name="nombre" placeholder="Nombre de Usuario" require>
-            <input type="password" name="cont1" placeholder="Contraseña" require>
-            <input type="password" name="cont2" placeholder="Confirmar Contraseña" require>
-            <input type="email" name="email" placeholder="E-mail" require>
-            <input type="submit" name="" value="registrarse">
+            <input type="text" name="nombre" placeholder="Nombre de Usuario" required>
+            <input type="password" name="cont" placeholder="Contraseña" required>
+            <input type="password" name="contTemp" placeholder="Confirmar Contraseña" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="submit" name="ida" value="registrarse">
         </form>
     </div>
 
     <!-- Login Fin -->
     
     <?php 
-    /*
     include 'conexion.php';
 
     if (isset($_POST['ida'])) {
 
         //Recoger los valores del formulario de registro
         $nombre= $_POST['nombre'];
-        $cont1= $_POST['cont1'];
-        $cont2= $_POST['cont2'];
+        $cont1= $_POST['cont'];
+        $cont2= $_POST['contTemp'];
         $email= $_POST['email'];
         if ($cont1 == $cont2)
         {
-            $contraseña = $cont2
-            echo ("todo piola con vos");
-        } else [
-
-            echo ("todo mal con vos, las contraseñas no coinciden");
-        ]
-        //$contrasena_T_codificada=password_hash($contrasena_T, PASSWORD_DEFAULT);
-        $consulta="INSERT INTO `logueo` (`nombre_usuario`, `contraseña`, `email`) VALUES ('$nombre', '$contraseña', '$email';";
-        $resultado= mysqli_query($conexion, $consulta);
-
-        header("Location: index.php");
-        die();
+            $consulta="INSERT INTO logueo (nombre_usuario, contraseña, email) VALUES ('$nombre', '$cont1', '$email')";
+            $resultado= mysqli_query($conexion, $consulta);
+            header("Location: index.php");
+        } else {
+            header("Location:register.php?distinto=si");
+        }
+        //die();
     }
     
 
-
-    
-    
-    
-    */
     include 'includes/footer.html'?>
 
 </body>
