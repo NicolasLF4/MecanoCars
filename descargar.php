@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="icon" href="img/logo.png" >
     <link rel="stylesheet" href="css/index.css">
+    
 </head>
 
 <body>
