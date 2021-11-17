@@ -37,7 +37,7 @@
                         <a class="nav-link" href="Informacion.php">Informacion del Juego</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="mobile.php">MC Mobile</a>
+                        <a class="nav-link" href="estadisticas.php">Estadisticas</a>
                     </li>
                 </ul>
             </div>
