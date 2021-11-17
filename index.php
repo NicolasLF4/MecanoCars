@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include 'includes/nav.html'?>
+    <?php include 'includes/nav.php'?>
 
     <div class="separador"></div>
 

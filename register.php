@@ -14,7 +14,7 @@
 
 <body>
 
-<?php include 'includes/nav.html'?>
+<?php include 'includes/nav.php'?>
 <?php
 if(isset($_REQUEST["distinto"])){
 	echo '<script type="text/javascript">alert("las contraseñas no coinciden");</script>';

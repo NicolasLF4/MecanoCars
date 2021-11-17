@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
+<?php
+	/*session_start();
+	if (!isset($_SESSION['nombre_usuario'])) {
+        header("location:index.php");
+    }*/
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +17,7 @@
 </head>
 
 <body>
-    <?php include 'includes/nav.html'?>
+    <?php include 'includes/nav.php'?>
 
     <div class="separador"></div>
 

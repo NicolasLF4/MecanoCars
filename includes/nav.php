@@ -25,7 +25,16 @@
                     </li>
                 </ul>
                 <!-- Inicio de Sesion -->
-                <a class="btn btn-warning" href="login.php">Jugar Ahora</a>
+                <?php
+                session_start();
+                if (isset($_SESSION['nombre_usuario'])) {
+                    echo "<a class='nav-link'>".$_SESSION['nombre_usuario']."</a>";
+                    echo "<a class='btn btn-warning' href='includes/cerrar.php'>cerrar sesion</a>";
+                }else{
+                echo"<a class='btn btn-warning' href='login.php'>Jugar Ahora</a>";
+                
+                }
+                ?>
             </div>
         </div>
     </nav>
