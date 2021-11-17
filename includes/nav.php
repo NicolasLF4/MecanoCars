@@ -24,17 +24,22 @@
                         <a class="nav-link" href="estadisticas.php">Estadisticas</a>
                     </li>
                 </ul>
-                <!-- Inicio de Sesion 
-                <a class="btn btn-warning" href="login.php">Jugar Ahora</a-->
-                    <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          Goneza
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Estadisticas</a></li>
-                            <li><a class="dropdown-item" href="cerrarsesion.php">Cerrar sesión</a></li>
-                        </ul>
-                    </div>
+                <!-- Inicio de Sesion -->
+                <?php
+                session_start();
+                if (isset($_SESSION['nombre_usuario'])) {
+                    echo "<div class='dropdown'>";
+                    echo "<a class='btn btn-secondary dropdown-toggle' href='#' role='button' id='dropdownMenuLink' data-bs-toggle='dropdown' aria-expanded='false'>".$_SESSION['nombre_usuario']."</a>";
+                    echo "<ul class='dropdown-menu' aria-labelledby='dropdownMenuLink'>";
+                    echo "<li><a class='dropdown-item' href='#'>Estadisticas</a></li>";
+                    echo "<li><a class='dropdown-item' href='cerrarsesion.php'>Cerrar sesión</a></li>";
+                    echo "</ul>";
+                    echo "</div>";
+                }else{
+                echo"<a class='btn btn-warning' href='login.php'>Jugar Ahora</a>";
+                
+                }
+                ?>
             </div>
         </div>
     </nav>
