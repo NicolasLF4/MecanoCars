@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="icon" href="img/logo.png" >
     <link rel="stylesheet" href="css/register.css">
-    <link rel="stylesheet" href="css/index.css">
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
     <!-- Login -->
     <div class="ContLogin">
-        <form class="caja" action="" method="post">
+        <form class="cajaLogin" action="" method="post">
             <h2>Registrarse</h2>
             <input type="text" name="nombre" placeholder="Nombre de Usuario" require>
             <input type="password" name="cont1" placeholder="Contraseña" require>

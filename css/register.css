@@ -34,7 +34,7 @@ body {
     border-radius: 25px 5px 25px 5px;
 }*/
 
-.ContLogin .caja {
+.ContLogin .cajaLogin {
     background: #202020;
     width: auto;
     height: auto;
@@ -44,9 +44,9 @@ body {
     border-radius: 32px 5px 25px 5px;
 }
 
-.caja input[type="text"],
-.caja input[type="email"],
-.caja input[type="password"] {
+.cajaLogin input[type="text"],
+.cajaLogin input[type="email"],
+.cajaLogin input[type="password"] {
     border: 0;
     background: none;
     margin: 20px auto;
@@ -58,7 +58,7 @@ body {
     color: #c7c7c7;
 }
 
-.caja input[type="submit"] {
+.cajaLogin input[type="submit"] {
     border: 0;
     background: none;
     margin: 20px auto;
@@ -70,7 +70,7 @@ body {
     color: #c7c7c7;
 }
 
-.caja input:hover[type="submit"] {
+.cajaLogin input:hover[type="submit"] {
     background: #ffc107;
     color: #070707;
 }
