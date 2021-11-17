@@ -14,7 +14,7 @@
 <body>
 <?php
 	session_start();
-	if (!isset($_SESSION["usuario"])) {
+	if (!isset($_SESSION["nombre_usuario"])) {
         header("location:index.php");
     }
 ?>
