@@ -8,7 +8,7 @@
     <title>MecanoCars</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="icon" href="img/logo.png" >
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/descargar.css">
     
 </head>
 
@@ -33,6 +33,8 @@
         </div>
         <!-- Seccion Boton Jugar Fin-->
     </div>
+
+    <div class="separador"></div> 
 
     <?php include 'includes/footer.html'?>
 
