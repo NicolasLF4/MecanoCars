@@ -12,8 +12,13 @@
 </head>
 
 <body>
-
-    <?php include 'includes/nav.html' ?>
+<?php
+	session_start();
+	if (!isset($_SESSION["nombre_usuario"])) {
+        header("location:index.php");
+    }
+?>
+    <?php include 'includes/nav.php' ?>
     <?php include 'includes/footer.html'?>
 
 </body>

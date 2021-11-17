@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<?php include 'includes/nav.html'?>
+<?php include 'includes/nav.php'?>
 
     <!-- Main -->
     

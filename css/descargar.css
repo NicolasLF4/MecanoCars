@@ -9,7 +9,7 @@ body {
 }
 
 
-/* Boton Jugar */
+/* Boton Descargar */
 
 .main {
     padding: 2% 5%;
@@ -23,9 +23,9 @@ body {
 .contenedorbtn {
     background-image: url(../img/fondo/fondoPista2.jpg);
     background-size: 100%;
-    width: 100%;
+    width: auto;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
     border-radius: 10px;
     display: flex;
     padding: 10px;
@@ -45,9 +45,11 @@ body {
     border: 1px solid #ffc107;
 }
 
-.marcobtn a {
-    display: inline-block;
+.marcobtn button {
+    border: 0;
+    display: block;
     position: relative;
+    background: none;
     border-radius: 20px 5px 20px 5px;
     padding: 15px 30px;
     color: #fff;
@@ -58,12 +60,25 @@ body {
     transition: 0.2s;
 }
 
-.marcobtn a:hover {
+/*    
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border: 2px solid #ffc107;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: #c7c7c7;
+*/
+
+.marcobtn button:hover {
     background: #ffc107;
     box-shadow: 0 0 10px #ffc107, 0 0 40px #ffc107, 0 0 80px #ffc107;
     color: #1A1A23;
     border-radius: 20px 5px 20px 5px;
 }
+
 
 /* Boton Jugar Fin */
 

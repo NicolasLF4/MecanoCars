@@ -14,7 +14,7 @@
 
 <body>
 
-    <?php include 'includes/nav.html' ?>
+    <?php include 'includes/nav.php' ?>
     <?php include 'includes/footer.html'?>
     
 </body>
