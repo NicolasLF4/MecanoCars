@@ -28,8 +28,13 @@
                 <?php
                 session_start();
                 if (isset($_SESSION['nombre_usuario'])) {
-                    echo "<a class='nav-link'>".$_SESSION['nombre_usuario']."</a>";
-                    echo "<a class='btn btn-warning' href='includes/cerrar.php'>cerrar sesion</a>";
+                    echo "<div class='dropdown'>";
+                    echo "<a class='btn btn-secondary dropdown-toggle' href='#' role='button' id='dropdownMenuLink' data-bs-toggle='dropdown' aria-expanded='false'>".$_SESSION['nombre_usuario']."</a>";
+                    echo "<ul class='dropdown-menu' aria-labelledby='dropdownMenuLink'>";
+                    echo "<li><a class='dropdown-item' href='#'>Estadisticas</a></li>";
+                    echo "<li><a class='dropdown-item' href='cerrarsesion.php'>Cerrar sesión</a></li>";
+                    echo "</ul>";
+                    echo "</div>";
                 }else{
                 echo"<a class='btn btn-warning' href='login.php'>Jugar Ahora</a>";
                 
