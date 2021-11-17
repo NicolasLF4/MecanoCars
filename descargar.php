@@ -13,7 +13,8 @@
     <title>MecanoCars</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="icon" href="img/logo.png" >
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/descargar.css">
+    
 </head>
 
 <body>
@@ -28,7 +29,7 @@
             <div class="col-lg-12 col-sm-3">
                 <div class="contenedorbtn col-sm-12">
                     <div class="marcobtn">
-                        <button type="button" onclick >
+                        <button type="button" onclick="window.open('MecanoCars 2021 0.2.2 x64.rar')">
                             <span id="span4"></span> Descargar
                         </a>
                     </div>
@@ -37,6 +38,8 @@
         </div>
         <!-- Seccion Boton Jugar Fin-->
     </div>
+
+    <div class="separador"></div> 
 
     <?php include 'includes/footer.html'?>
 
