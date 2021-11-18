@@ -341,3 +341,9 @@ footer {
         display: none;
     }
 }
+
+@media screen and (min-width: 991px) {
+    .slider {
+        display: none;
+    }
+}
