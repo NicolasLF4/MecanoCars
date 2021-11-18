@@ -23,7 +23,7 @@ if(isset($_REQUEST["distinto"])){
 
     <!-- Login -->
     <div class="ContLogin">
-        <form class="caja" action="" method="post">
+        <form class="cajaLogin" action="" method="post">
             <h2>Registrarse</h2>
             <input type="text" name="nombre" placeholder="Nombre de Usuario" required>
             <input type="password" name="cont" placeholder="Contraseña" required>
