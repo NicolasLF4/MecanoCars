@@ -43,20 +43,20 @@
                     </div>
                     <div class="contenedorIMG">
                         <div class="caja">
-                            <img src="img/img-hover/bettle/BRojo.jpeg">
-                            <span>Bettle</span>
+                            <img src="img/Autos/ARojo.png">
+                            <span>Astrid</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/f100/FCeleste.jpeg">
-                            <span>f100</span>
+                            <img src="img/Autos/BNegro.png">
+                            <span>Bobby</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/r12/RAzul.jpeg">
-                            <span>Renault12</span>
+                            <img src="img/Autos/MMarron.png">
+                            <span>Mario</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/Eliminado.jpg">
-                            <span>Auto eliminado</span>
+                            <img src="img/Autos/AAmarilloO.png">
+                            <span>Primer Auto</span>
                         </div>
                     </div>
                 </div>
