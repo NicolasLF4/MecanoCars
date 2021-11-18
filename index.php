@@ -76,7 +76,7 @@
                     <div class="Descrip ">
                         <span class="small ">Acepta el desafio</span>
                         <span class="big ">MECANOCARS</span>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repudiandae accusamus dolorem sit quia quaerat debitis aliquam distinctio repellat facere, corporis quas alias quisquam laborum ab, quos quibusdam rerum animi!</p>
+                        <p>Una herramienta didáctica en forma de juego de velocidad de escritura, que mejorará tus habilidades de tecleo, lectura y ortografia, explotando todos los beneficios de la ludopedagogía, la mejor metodologia de enseñanza, aprender jugando. </p>
                     </div>
                 </div>
             </div>
