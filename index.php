@@ -20,8 +20,8 @@
 
         <!-- Seccion Boton Jugar -->
         <div class="row">
-            <div class="col-lg-12 col-sm-3">
-                <div class="contenedorbtn col-sm-12">
+            <div class="">
+                <div class="contenedorbtn ">
                     <div class="marcobtn">
                         <a href="login.php">
                             <span id="span4"></span> Jugar Ahora
@@ -30,12 +30,12 @@
                 </div>
             </div>
         </div>
-        <!-- Seccion Boton Jugar Fin-->
 
+        <!-- Seccion Boton Jugar Fin-->
 
         <!-- IMG HOVER -->
         <div class="row">
-            <div class="col-lg-12 col-sm-6">
+            <div class="">
                 <div class="IMG-ALL">
                     <div class="subtitle">
                         <h2>DESBLOQUEA TODO TIPO DE VEHICULOS</h2>
@@ -43,30 +43,86 @@
                     </div>
                     <div class="contenedorIMG">
                         <div class="caja">
-                            <img src="img/Autos/ARojo.png">
-                            <span>Astrid</span>
+                            <img src="img/img-hover/bettle/BRojo.jpeg">
+                            <span>Bettle</span>
                         </div>
                         <div class="caja">
-                            <img src="img/Autos/BNegro.png">
-                            <span>Bobby</span>
+                            <img src="img/img-hover/f100/FCeleste.jpeg">
+                            <span>f100</span>
                         </div>
                         <div class="caja">
-                            <img src="img/Autos/MMarron.png">
-                            <span>Mario</span>
+                            <img src="img/img-hover/r12/RAzul.jpeg">
+                            <span>Renault12</span>
                         </div>
                         <div class="caja">
-                            <img src="img/Autos/AAmarilloO.png">
-                            <span>Primer Auto</span>
+                            <img src="img/img-hover/Eliminado.jpg">
+                            <span>Auto eliminado</span>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Slider  -->
+
+            <div class="slider">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="img/Autos/ARojo.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="img/Autos/BNegro.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="img/Autos/MMarron.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="img/Autos/AAmarilloO.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
         </div>
+        </div>
+
+
+        <div class="separador"></div>
+        
 
         <!-- IMG HOVER FIN -->
 
 
         <!-- marco info -->
+        
         <div class="container">
             <div class="col">
                 <div class="DESCRIP-ALL">

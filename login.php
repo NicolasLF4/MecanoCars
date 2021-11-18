@@ -70,6 +70,7 @@
         </div>
     </div>
 
+
     <!-- Registro Fin -->
     <?php
     if (isset($_POST['ingresar']))
