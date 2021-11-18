@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="icon" href="img/logo.png" >
     <link rel="stylesheet" href="css/login.css">
-    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link rel="stylesheet" href="css/index">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="Informacion.php">Informacion del Juego</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="mobile.php">MC Mobile</a>
+                        <a class="nav-link" href="estadisticas.php">Estadisticas</a>
                     </li>
                 </ul>
             </div>
@@ -73,41 +73,41 @@
         </div>
     </div>
     
-    <!-- Registro Fin -->
-    <?php
 
-
-if (isset($_POST['ingresar']))
-{
-    include 'conexion.php';
-    //Recoger los valores del formulario de registro
-    $usuario = $_POST['usuario'];
-    $contrasena= $_POST['contrasena'];
-
-    $resultado_usuario= mysqli_query($conexion, "SELECT * FROM `logueo` WHERE `nombre_usuario` = '$usuario' ");
-    $usuarioBase= mysqli_fetch_assoc($resultado_usuario);
     
-    if ($usuario == $usuarioBase['nombre_usuario']) {
-        if ($contrasena == $usuarioBase['Contraseña']) {
-            session_start();
-            $_SESSION['nombre_usuario']=$usuarioBase['nombre_usuario'];
-            $_SESSION['Contraseña']=$usuarioBase['Contraseña'];
-            $_SESSION['email']=$usuarioBase['email'];
-            header("Location: descargar.php");
-            die();
+    <!-- Registro Fin -->
+    <?php 
+    if (isset($_POST['ingresar']))
+    {
+        include 'conexion.php';
+        //Recoger los valores del formulario de registro
+        $usuario = $_POST['usuario'];
+        $contrasena= $_POST['contrasena'];
+    
+        $resultado_usuario= mysqli_query($conexion, "SELECT * FROM `logueo` WHERE `nombre_usuario` = '$usuario' ");
+        $usuarioBase= mysqli_fetch_assoc($resultado_usuario);
+        
+        if ($usuario == $usuarioBase['nombre_usuario']) {
+            if ($contrasena == $usuarioBase['Contraseña']) {
+                session_start();
+                $_SESSION['nombre_usuario']=$usuarioBase['nombre_usuario'];
+                $_SESSION['Contraseña']=$usuarioBase['Contraseña'];
+                $_SESSION['email']=$usuarioBase['email'];
+                header("Location: descargar.php");
+                die();
+            }
+            else
+            {
+                echo '<script type="text/javascript">alert("contraseña erronea");</script>';
+            }
         }
         else
         {
-            echo '<script type="text/javascript">alert("contraseña erronea");</script>';
+            echo '<script type="text/javascript">alert("usuario invalido");</script>';
         }
+        mysqli_close($conexion);
     }
-    else
-    {
-        echo '<script type="text/javascript">alert("usuario invalido");</script>';
-    }
-    mysqli_close($conexion);
-}
-?>
+    ?>
 
     <?php include 'includes/footer.html'?>
     
