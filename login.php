@@ -46,20 +46,11 @@
     <!-- NavBar Fin -->
 
 
-    <!-- Header Welcome -->
-
-    <div class="header-component">
-        <a class="logo" href=""><img src="" alt="">
-        </a>
-    </div>
-
-    <!-- Header Welcome Fin -->
-
     <!-- Registro -->
 
     <div class="welcome-container">
-
         <div class="welcome">
+            <div class="separador"></div>
             <H1>AQUI COMIENZA LA AVENTURA</H1>
         </div>
         <div class="ContLogin">

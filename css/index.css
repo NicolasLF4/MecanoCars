@@ -6,6 +6,7 @@
 
 body {
     background: #070707;
+    height: auto;
 }
 
 
@@ -138,7 +139,7 @@ body {
 }
 
 .slider {
-    border-radius: 20px;
+    border-radius: 20px !important;
 }
 
 
@@ -379,6 +380,13 @@ footer {
     }
 }
 
-@media screen and (max-width: 575px) {}
+@media screen and (max-width: 459px) {
+    .marcobtn {
+        height: auto;
+    }
+    .marcobtn a {
+        font-size: 10px;
+    }
+}
 
 @media screen and (max-width: 994px) {}
