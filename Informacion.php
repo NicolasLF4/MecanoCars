@@ -24,9 +24,9 @@
     <div class="container">
         <div class="conteneiner">
             <div class="subtitle">
-                <h2>¿¡QUE ES Y COMO FUNCIONA MECANOCARS!?</h2>
+                <h2>¿¡QUÉ ES Y CÓMO FUNCIONA MECANOCARS!?</h2>
                 <div class="separador"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, suscipit laborum natus labore voluptatibus quam quis deserunt esse, corporis eum vero distinctio a quas omnis doloribus recusandae corrupti ducimus tenetur.</p>
+                <p>MecanoCars es un videojuego didactico inspirado en las carreras.</p>
             </div>
         </div>
 
@@ -57,6 +57,7 @@
 
         <div class="containerPJ">
             <div class="subtitle">
+                <div class="separador"></div>
                 <h2>¡ JUEGA CONTRA LAS LEYENDAS DE MECANOCARS !</h2>
             </div>
             <div class="app">

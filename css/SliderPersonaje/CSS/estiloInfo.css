@@ -94,8 +94,8 @@ body {
 }
 
 .subtitle p {
-    font-size: 20px;
-    color: #c7c7c7;
+    font-size: 46px;
+    color: #2020;
     text-align: center;
 }
 
@@ -148,7 +148,7 @@ body {
 }
 
 .Descrip p {
-    font-size: 18px;
+    font-size: 36px;
     padding: 0 1rem;
     text-align: center;
     color: #ffc107;
@@ -166,5 +166,11 @@ body {
     }
     .contenedorIMG {
         display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .subtitle h2 {
+        font-size: 30px;
     }
 }

@@ -5,9 +5,14 @@
 }
 
 body {
-    background: url(../img/fondo/fondoPista2.jpg);
+    background: #070707;
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.separador {
+    width: 100%;
+    height: 30px;
 }
 
 a {
@@ -16,11 +21,6 @@ a {
 
 a:hover {
     color: #ffc107bd;
-}
-
-.header-component {
-    width: 100%;
-    height: 20vh;
 }
 
 .welcome-container {
@@ -41,7 +41,7 @@ a:hover {
 .ContLogin {
     width: 100%;
     /* height: 90vh; */
-    padding: 20px 20px 40px 20px;
+    padding: 20px 20px 0px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -214,5 +214,11 @@ footer {
     .colum2,
     .colum3 {
         margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .welcome H1 {
+        font-size: 30px;
     }
 }

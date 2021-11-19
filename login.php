@@ -60,7 +60,8 @@
             </form>
         </div>
     </div>
-
+    
+    <div class="separador"></div>
 
     <!-- Registro Fin -->
     <?php
