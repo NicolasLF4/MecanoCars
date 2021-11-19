@@ -20,7 +20,6 @@
 
         <!-- Seccion Boton Jugar -->
         <div class="row">
-            <div class="">
                 <div class="contenedorbtn ">
                     <div class="marcobtn">
                         <a href="login.php">
@@ -28,7 +27,6 @@
                         </a>
                     </div>
                 </div>
-            </div>
         </div>
 
         <!-- Seccion Boton Jugar Fin-->

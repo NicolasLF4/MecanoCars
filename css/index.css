@@ -15,6 +15,11 @@ body {
     padding: 2% 5%;
 }
 
+
+/* .container {
+    margin: 0% !important;
+} */
+
 .separador {
     width: 100%;
     height: 30px;
@@ -25,10 +30,10 @@ body {
     background-size: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: auto; */
     border-radius: 10px;
     display: flex;
-    padding: 10px;
+    padding: 10% 0%;
     justify-content: center;
     align-items: center;
     border: 2px solid #1A1A23;
@@ -36,7 +41,7 @@ body {
 
 .contenedorbtn .marcobtn {
     background: #202020;
-    width: 34%;
+    width: 36%;
     height: 50vh;
     display: flex;
     border-radius: 20px 5px 20px 5px;
@@ -46,8 +51,8 @@ body {
 }
 
 .marcobtn a {
-    display: inline-block;
-    position: relative;
+    display: flex;
+    /* position: relative; */
     border-radius: 20px 5px 20px 5px;
     padding: 15px 30px;
     color: #fff;
@@ -56,6 +61,7 @@ body {
     text-decoration: none;
     overflow: hidden;
     transition: 0.2s;
+    text-align: center;
 }
 
 .marcobtn a:hover {
@@ -129,6 +135,10 @@ body {
 .caja:hover img {
     width: 100%;
     height: 100%;
+}
+
+.slider {
+    border-radius: 20px;
 }
 
 
@@ -347,3 +357,28 @@ footer {
         display: none;
     }
 }
+
+@media screen and (max-width: 994px) {
+    .contenedorbtn {
+        height: 60vh;
+    }
+    .marcobtn {
+        height: 30vh !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .marcobtn a {
+        font-size: 16px;
+    }
+    .contenedorbtn {
+        height: 40vh;
+    }
+    .marcobtn {
+        height: 15vh !important;
+    }
+}
+
+@media screen and (max-width: 575px) {}
+
+@media screen and (max-width: 994px) {}
