@@ -41,19 +41,19 @@
                     </div>
                     <div class="contenedorIMG">
                         <div class="caja">
-                            <img src="img/img-hover/bettle/BRojo.jpeg">
+                            <img src="img/Autos/ARojo.png">
                             <span>Bettle</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/f100/FCeleste.jpeg">
+                            <img src="img/Autos/BCeleste.png">
                             <span>f100</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/r12/RAzul.jpeg">
+                            <img src="img/Autos/MMarron.png">
                             <span>Renault12</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/Eliminado.jpg">
+                            <img src="img/Autos/AAmarilloO.png">
                             <span>Auto eliminado</span>
                         </div>
                     </div>
@@ -114,14 +114,14 @@
 
 
         <div class="separador"></div>
-        
+
 
         <!-- IMG HOVER FIN -->
 
 
         <!-- marco info -->
-        
-        <div class="container">
+        <?php include 'includes/AceptaDesafio.php'?>
+        <!--div class="container">
             <div class="col">
                 <div class="DESCRIP-ALL">
                     <div class="Descrip-img ">
@@ -130,11 +130,11 @@
                     <div class="Descrip ">
                         <span class="small ">Acepta el desafio</span>
                         <span class="big ">MECANOCARS</span>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repudiandae accusamus dolorem sit quia quaerat debitis aliquam distinctio repellat facere, corporis quas alias quisquam laborum ab, quos quibusdam rerum animi!</p>
+                        <p>Una herramienta didáctica en forma de juego de velocidad de escritura, que mejorará tus habilidades de tecleo, lectura y ortografia, explotando todos los beneficios de la ludopedagogía, la mejor metodologia de enseñanza, aprender jugando. </p>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 

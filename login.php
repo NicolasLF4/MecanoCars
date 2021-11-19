@@ -36,9 +36,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Informacion.php">Informacion del Juego</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="estadisticas.php">Estadisticas</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -58,26 +55,25 @@
                 <h2>Inicia sesión</h2>
                 <input type="text" name="usuario" placeholder="Usuario">
                 <input type="password" name="contraseña" placeholder="Contraseña">
-                <input type="submit" name="" value="iniciar">
+                <input type="submit" name="ingresar" value="iniciar">
                 Si no estas registrado: <a href="register.php" >Regístrate</a>
             </form>
         </div>
     </div>
-    
 
-    
+
     <!-- Registro Fin -->
-    <?php 
+    <?php
     if (isset($_POST['ingresar']))
     {
         include 'conexion.php';
         //Recoger los valores del formulario de registro
         $usuario = $_POST['usuario'];
         $contrasena= $_POST['contrasena'];
-    
+
         $resultado_usuario= mysqli_query($conexion, "SELECT * FROM `logueo` WHERE `nombre_usuario` = '$usuario' ");
         $usuarioBase= mysqli_fetch_assoc($resultado_usuario);
-        
+
         if ($usuario == $usuarioBase['nombre_usuario']) {
             if ($contrasena == $usuarioBase['Contraseña']) {
                 session_start();
@@ -101,7 +97,7 @@
     ?>
 
     <?php include 'includes/footer.html'?>
-    
+
 </body>
 
 </html>

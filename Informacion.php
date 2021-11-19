@@ -151,20 +151,7 @@
         <div class="separador"></div>
 
             <!-- marco info -->
-            <div class="container">
-                <div class="col">
-                    <div class="DESCRIP-ALL">
-                        <div class="Descrip-img">
-                            <img src="img/Decoracion/BannerBruce.png" alt="">
-                        </div>
-                        <div class="Descrip">
-                            <span class="small">Acepta el desafio</span>
-                            <span class="big">MECANOCARS</span>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut repudiandae accusamus dolorem sit quia quaerat debitis aliquam distinctio repellat facere, corporis quas alias quisquam laborum ab, quos quibusdam rerum animi!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include 'includes/AceptaDesafio.php'?>
         </div>
 
         <div class="separador"></div>
