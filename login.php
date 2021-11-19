@@ -64,7 +64,7 @@
                 <h2>Inicia sesión</h2>
                 <input type="text" name="usuario" placeholder="Usuario">
                 <input type="password" name="contraseña" placeholder="Contraseña">
-                <input type="submit" name="" value="iniciar">
+                <input type="submit" name="ingresar" value="iniciar">
                 Si no estas registrado: <a href="register.php" >Regístrate</a>
             </form>
         </div>

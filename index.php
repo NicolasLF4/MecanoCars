@@ -43,19 +43,19 @@
                     </div>
                     <div class="contenedorIMG">
                         <div class="caja">
-                            <img src="img/img-hover/bettle/BRojo.jpeg">
+                            <img src="img/Autos/ARojo.png">
                             <span>Bettle</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/f100/FCeleste.jpeg">
+                            <img src="img/Autos/BCeleste.png">
                             <span>f100</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/r12/RAzul.jpeg">
+                            <img src="img/Autos/MMarron.png">
                             <span>Renault12</span>
                         </div>
                         <div class="caja">
-                            <img src="img/img-hover/Eliminado.jpg">
+                            <img src="img/Autos/AAmarilloO.png">
                             <span>Auto eliminado</span>
                         </div>
                     </div>
@@ -116,14 +116,14 @@
 
 
         <div class="separador"></div>
-        
+
 
         <!-- IMG HOVER FIN -->
 
 
         <!-- marco info -->
-        
-        <div class="container">
+        <?php include 'includes/AceptaDesafio.php'?>
+        <!--div class="container">
             <div class="col">
                 <div class="DESCRIP-ALL">
                     <div class="Descrip-img ">
@@ -136,7 +136,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 
